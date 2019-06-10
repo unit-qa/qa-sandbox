@@ -1,2 +1,2 @@
-# qa-sandbox
+# QA Sandbox
 UI Automation Testing Using Nightwatch.js Framework
