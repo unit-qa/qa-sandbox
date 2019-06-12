@@ -1,0 +1,62 @@
+{
+	"testCase1" : [
+		"[A]TEST CASE #1: Create USE CASE without any data",
+		"[A]We will try to create use case without entering any data in required fields and confirm by clicking on submit button",
+		"[A]We should not be able to create use case, appropriate validation errors should pop up on required fields",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase2" : [
+		"[A]TEST CASE #2: Create USE CASE with invalid data",
+		"[A]We will try to create USE CASE with invalid data in required fields and confirm by clicking on submit button",
+		"[A]We will try to create USE CASE with invalid data in required fields and confirm by clicking on submit button",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase3" : [
+		"[A]TEST CASE #3: Create USE CASE with valid data",
+		"[A]We will create USE CASE with valid data in all fields and confirm by clicking on submit button",
+		"[A]We should be able to create USE CASE and no validation errors should show up",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase4" : [
+		"[A]TEST CASE #4: Check if created USE CASE contains proper data",
+		"[A]We will inspect created USE CASE and check if proper data is saved in DB and displayed",
+		"[A]We should be able to see proper text in every field, same one that we previously entered while creating our USE CASE",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase5" : [
+		"[A]TEST CASE #5: Update USE CASE with valid data",
+		"[A]We will update USE CASE with valid data in all fields and confirm by clicking on submit button",
+		"[A]We should be able to update USE CASE and no validation errors should show up",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase6" : [
+		"[A]TEST CASE #6: Check if updated USE CASE contains proper data",
+		"[A]We will inspect updated USE CASE and check if proper data is saved in DB and displayed",
+		"[A]We should be able to see proper text in every field, same one that we previously entered while updating our USE CASE",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase7" : [
+		"[A]TEST CASE #7: Update USE CASE with valid data and discard changes",
+		"[A]We will update USE CASE with valid data in all fields and discard changes by clicking on BACK button",
+		"[A]We should be able to discard changes without updating USE CASE and no validation errors should show up",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase8" : [
+		"[A]TEST CASE #8: Check if USE CASE contains proper data after we discarded update",
+		"[A]We will inspect USE CASE after discarded update and check if data is not saved in DB and proper data is displayed",
+		"[A]We should be able to see proper text in every field, same one that was present previously before we discarded update for the USE CASE",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase9" : [
+		"[A]TEST CASE #9: Delete USE CASE",
+		"[A]We will delete USE CASE and check if USE CASE is properly deleted",
+		"[A]We should be able to delete USE CASE without any errors",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	],
+	"testCase10" : [
+		"[A]TEST CASE #10: Create new USE CASE with valid data and additional USE CASE STEP",
+		"[A]We will create USE CASE with valid data in all fields and confirm by clicking on submit button",
+		"[A]We should be able to create USE CASE and no validation errors should show up",
+		"[A]Old use cases written with complete case steps for this test are left intact in QA Sandbox application"
+	]
+}
