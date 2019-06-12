@@ -1,3 +1,4 @@
+.DS_Stores
 logs
 *.log
 node_modules
