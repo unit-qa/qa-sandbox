@@ -66,7 +66,3 @@ npm install chromedriver -g
 ## Note
 
 Chrome web driver works with `Google Chrome` browser version `75` or `newer`.
-
-## License
-
-[ISC](https://choosealicense.com/licenses/isc/)
