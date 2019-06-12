@@ -1,33 +1,32 @@
 {
-  "name": "qa-sandbox",
-  "version": "1.0.0",
-  "description": "UI Automation Testing Using Nightwatch.js Framework & Chrome Browser",
-  "main": "index.js",
-  "scripts": {
-    "test": "nightwatch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unitqa/qa-sandbox.git"
-  },
-  "keywords": [
-    "ui",
-    "e2e",
-    "automation",
-    "testing",
-    "nightwatch",
-    "framework",
-    "chrome",
-    "browser"
-  ],
-  "author": "Aleksandar Stojkovic",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/unitqa/qa-sandbox/issues"
-  },
-  "homepage": "https://github.com/unitqa/qa-sandbox#readme",
-  "devDependencies": {
-    "chromedriver": "^75.0.0",
-    "nightwatch": "^1.1.12"
-  }
+	"name": "qa-sandbox",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "nightwatch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/unitqa/qa-sandbox.git"
+	},
+	"keywords": [
+		"ui",
+		"e2e",
+		"automation",
+		"testing",
+		"nightwatch",
+		"framework",
+		"chrome",
+		"browser"
+	],
+	"author": "Aleksandar Stojkovic",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/unitqa/qa-sandbox/issues"
+	},
+	"homepage": "https://github.com/unitqa/qa-sandbox#readme",
+	"devDependencies": {
+		"chromedriver": "^75.0.0",
+		"nightwatch": "^1.1.12"
+	}
 }
