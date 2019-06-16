@@ -18,7 +18,7 @@ try {
 
 module.exports = {
 
-	'Login in QA Sandbox application & navigate to the Use Case section' : function (client) {
+	'Login in QA Sandbox application' : function (client) {
 
 		const browser = client.page.qaSandbox();
 
@@ -39,7 +39,7 @@ module.exports = {
 			.assert.title('Sandbox')
 	},
 
-	'Remove all previously created Use Cases' : function (client) {
+	'Navigate to the Use Cases section & remove all previously created use cases' : function (client) {
 
 		const browser = client.page.qaSandbox();
 
